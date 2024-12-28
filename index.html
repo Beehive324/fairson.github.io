@@ -10,12 +10,6 @@
             padding: 20px;
             background: #fff;
             color: #333;
-            transition: background 0.3s, color 0.3s;
-        }
-
-        body.dark-mode {
-            background: #121212;
-            color: #e0e0e0;
         }
 
         pre {
@@ -43,7 +37,7 @@
             display: inline-block;
             margin-right: 20px;
             text-decoration: none;
-            color: inherit;
+            color: #333;
         }
 
         .nav-item:hover {
@@ -68,73 +62,47 @@
             border-top: 1px solid #ddd;
             padding-top: 20px;
         }
-
-        .dark-mode .footer {
-            border-color: #444;
-        }
-
-        .dark-mode-toggle {
-            margin-bottom: 20px;
-            cursor: pointer;
-            font-size: 0.9em;
-            padding: 10px;
-            background: #333;
-            color: #fff;
-            border: none;
-            border-radius: 5px;
-        }
-
-        .dark-mode .dark-mode-toggle {
-            background: #e0e0e0;
-            color: #333;
-        }
     </style>
 </head>
 <body>
-    <button class="dark-mode-toggle" onclick="toggleDarkMode()">◐</button>
-    <pre>
+<pre>
 
-        ___           ___                       ___           ___           ___           ___     
-        /\__\         /\  \                     /\  \         /\__\         /\  \         /\  \    
-       /:/ _/_       /::\  \       ___         /::\  \       /:/ _/_       /::\  \        \:\  \   
-      /:/ /\__\     /:/\:\  \     /\__\       /:/\:\__\     /:/ /\  \     /:/\:\  \        \:\  \  
-     /:/ /:/  /    /:/ /::\  \   /:/__/      /:/ /:/  /    /:/ /::\  \   /:/  \:\  \   _____\:\  \ 
-    /:/:/  /    /:/_/:/\:\__\ /::\  \     /:/_/:/__/___ /:/_/:/\:\__\ /:/__/ \:\__\ /::::::::\__\
-    \:\/:/  /     \:\/:/  \/__/ \/\:\  \__  \:\/:::::/  / \:\/:/ /:/  / \:\  \ /:/  / \:\~~\~~\/__/
-     \::/__/       \::/__/       ~~\:\/\__\  \::/~~/~~~~   \::/ /:/  /   \:\  /:/  /   \:\  \      
-      \:\  \        \:\  \          \::/  /   \:\~~\        \/_/:/  /     \:\/:/  /     \:\  \     
-       \:\__\        \:\__\         /:/  /     \:\__\         /:/  /       \::/  /       \:\__\    
-        \/__/         \/__/         \/__/       \/__/         \/__/         \/__/         \/__/    
+    ___           ___                       ___           ___           ___           ___     
+    /\__\         /\  \                     /\  \         /\__\         /\  \         /\  \    
+   /:/ _/_       /::\  \       ___         /::\  \       /:/ _/_       /::\  \        \:\  \   
+  /:/ /\__\     /:/\:\  \     /\__\       /:/\:\__\     /:/ /\  \     /:/\:\  \        \:\  \  
+ /:/ /:/  /    /:/ /::\  \   /:/__/      /:/ /:/  /    /:/ /::\  \   /:/  \:\  \   _____\:\  \ 
+/:/_/:/  /    /:/_/:/\:\__\ /::\  \     /:/_/:/__/___ /:/_/:/\:\__\ /:/__/ \:\__\ /::::::::\__\
+\:\/:/  /     \:\/:/  \/__/ \/\:\  \__  \:\/:::::/  / \:\/:/ /:/  / \:\  \ /:/  / \:\~~\~~\/__/
+ \::/__/       \::/__/       ~~\:\/\__\  \::/~~/~~~~   \::/ /:/  /   \:\  /:/  /   \:\  \      
+  \:\  \        \:\  \          \::/  /   \:\~~\        \/_/:/  /     \:\/:/  /     \:\  \     
+   \:\__\        \:\__\         /:/  /     \:\__\         /:/  /       \::/  /       \:\__\    
+    \/__/         \/__/         \/__/       \/__/         \/__/         \/__/         \/__/    
 
-    </pre>
+</pre>
 
-    <div class="nav">
-        <a href="#" class="nav-item">~/about</a>
-        <a href="https://github.com/Beehive324" class="nav-item">~/projects</a>
-        <a href="coming-soon.html" class="nav-item">~/blog</a>
-        <a href="Fairson Soares_CV.pdf" class="nav-item" target="_blank">~/cv</a>
-    </div>
+<div class="nav">
+    <a href="#" class="nav-item">~/about</a>
+    <a href="https://github.com/Beehive324" class="nav-item">~/projects</a>
+    <a href="coming-soon.html" class="nav-item">~/blog</a>
+    <a href="Fairson Soares_CV.pdf" class="nav-item" target="_blank">~/cv</a>
+</div>
 
-    <h1>Hi, I'm Fairson,.</h1>
+<h1>Hi, I'm Fairson,.</h1>
 
-    <p>Final year Computer Science student interested in Software Engineering, Data, and Data Structures and Algorithms.</p>
+<p>Final year Computer Science student interested in Software Engineering, Data, and Data Structures and Algorithms.</p>
 
-    <p>I work primarily with <strong>Python</strong>, <strong>SQL</strong>, and <strong>JavaScript</strong>.</p>
+<p>I work primarily with <strong>Python</strong>, <strong>SQL</strong>, and <strong>JavaScript</strong>.</p>
 
-    <p>A brief summary of my work:</p>
+<p>A brief summary of my work:</p>
 
-    <div class="bullet"><a href="https://apps.apple.com/gb/app/mindscribejourno/id6738331850"><strong>Mindscribe</a></strong> - iOS journaling app, built with React Native</div>
-    <div class="bullet"><a href="https://github.com/Beehive324/PortfolioManager"><strong>Portfolio Manager</a></strong> - Built during Bloomberg tech labs</div>
-    <div class="bullet"><a href="https://github.com/Beehive324/PoemScrape"><strong>Poem Scrape</a></strong> - Web scraping tool for poetry</div>
+<div class="bullet"><a href="https://apps.apple.com/gb/app/mindscribejourno/id6738331850"><strong>Mindscribe</a></strong> - iOS journaling app, built with React Native</div>
+<div class="bullet"><a href="https://github.com/Beehive324/PortfolioManager"><strong>Portfolio Manager</a></strong> - Built during Bloomberg tech labs</div>
+<div class="bullet"><a href="https://github.com/Beehive324/PoemScrape"><strong>Poem Scrape</a></strong> - Web scraping tool for poetry</div>
 
-    <div class="footer">
-        <p>Find me on <a href="https://github.com/Beehive324">Github</a> and <a href="https://www.linkedin.com/in/fairson-soares-1a5a7620b/">LinkedIn</p>
-    </div>
+<div class="footer">
+    <p>Find me on <a href="https://github.com/Beehive324">Github</a> and <a href="https://www.linkedin.com/in/fairson-soares-1a5a7620b/">LinkedIn</p>
+</div>
 
-    <script>
-        function toggleDarkMode() {
-            document.body.classList.toggle('dark-mode');
-        }
-    </script>
 </body>
 </html>
